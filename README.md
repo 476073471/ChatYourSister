@@ -6,4 +6,4 @@ a chat software
 docker build -t chat .
 
 # 运行容器：
-docker run -dp 3000:80 --name chat --restart=always chat
+docker run -dp 3000:3000 --name chat --restart=always chat
